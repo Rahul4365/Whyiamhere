@@ -1,0 +1,85 @@
+/* Header */
+
+#header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1em;
+  margin-top: 0;
+}
+
+/* Search bar */
+
+#search-bar {
+  width: 50%;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Results */
+
+#results {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Animations */
+
+#search-bar input {
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz-transition: width 0.3s ease-in-out;
+  -o-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+
+#search-bar input:focus {
+  width: 100%;
+}
+
+#results ul {
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#results ul:hover {
+  opacity: 0.7;
+}
